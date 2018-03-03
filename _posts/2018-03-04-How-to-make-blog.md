@@ -38,7 +38,7 @@ Jekyllは、たくさんのテンプレートがあるのが魅力！！！
 僕は、[Hanuman](http://jekyllthemes.org/themes/hanuman/ )を選びました！！
 こんな感じのテーマです。いいですよね〜。</p>
 
-![Hanuman img](../assets/images/hanuman.jpg =200×)
+![Hanuman img](../assets/images/hanuman.jpg =200×200)
 
 <p>これをForkし、cloneをします！！
 Forkしたものを開き、cloneするためのURLを取得。
