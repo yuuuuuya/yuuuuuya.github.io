@@ -38,7 +38,7 @@ Jekyllは、たくさんのテンプレートがあるのが魅力！！！
 僕は、[Hanuman](http://jekyllthemes.org/themes/hanuman/ )を選びました！！
 <p>こんな感じのテーマです。いいですよね〜。</p>
 
-![Hanuman img](../assets/images/hanuman.jpg)
+![](../assets/images/hanuman.jpg)
 
 <p>これをForkし、cloneをします！！
 Forkしたものを開き、cloneするためのURLを取得。
@@ -70,5 +70,5 @@ $ Atom _config.yml
 
 <p>3つめ、次のコードを実行して、</p>
 ```terminal
-bundle exec Jekyll serve
+$ bundle exec Jekyll serve
 ```
