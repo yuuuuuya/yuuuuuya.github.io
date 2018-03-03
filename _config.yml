@@ -1,8 +1,8 @@
 # Site settings
 title: inaina blog
 description: 勉強内容をアップしていくので、コメントを頂けると嬉しいです。
-cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
+cover: /assets/images/radhakrishna.jpg
+logo: /assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://yuuuuuya.github.io/" # the base hostname & protocol for your site
