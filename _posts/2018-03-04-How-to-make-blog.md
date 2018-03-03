@@ -36,7 +36,7 @@ $ sudo gem install jekyll
 Jekyllは、たくさんのテンプレートがあるのが魅力！！！
 [Jekyll-themes](http://jekyllthemes.org)から好きなテーマを選べます。</p>
 僕は、[Hanuman](http://jekyllthemes.org/themes/hanuman/ )を選びました！！
-こんな感じのテーマです。いいですよね〜。</p>
+<p>こんな感じのテーマです。いいですよね〜。</p>
 
 ![Hanuman img](../assets/images/hanuman.jpg)
 
