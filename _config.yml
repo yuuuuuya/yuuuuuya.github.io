@@ -1,10 +1,10 @@
 # Site settings
 title: inaina blog
 description: 勉強内容をアップしていくので、コメントを頂けると嬉しいです。
-cover: /assets/images/radhakrishna.jpg
-logo: /assets/images/logo.png
+cover: assets/images/radhakrishna.jpg
+logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://yuuuuuya.github.io/" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
@@ -41,8 +41,8 @@ lsi: False
 username: yuuuuuya #github username
 repo: yuuuuuya.github.io #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
+relative_source: /hanuman/ #source directory
+destination: /hanuman-pages/ #destination directory
 production_url:  https://yuuuuuya.github.io/
 source_url:  https://github.com/yuuuuuya/yuuuuuya.github.io #source repository url
 
