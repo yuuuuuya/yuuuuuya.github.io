@@ -23,10 +23,6 @@ author: yuuuuuya
 <p>目標は、この確率モデル\\(p(t|\textbf{x},\textbf{w})\\)の高さを高くすることである。つまり、次の尤度関数を高くするような、パラメータ\\(w\\)を求めたい。</p>
 
 \begin{align}
-\prod_n p(t|\textbf{x_n},\textbf{w})\tag{3}
-\end{align}
-
-\begin{align}
 \prod_n p(t|\textbf{x}_n,\textbf{w})\tag{3}
 \end{align}
 
@@ -35,7 +31,7 @@ author: yuuuuuya
 この尤度関数に、対数をとった対数尤度関数を考える。その理由は、対数関数は増加関数であるため、尤度関数（３）に対数をとっても、尤度関数（３）を最大にするパラメータ\\(w\\)は不変であるからである。</p>
 
 \begin{align}
-\log \prod_n p(t|\textbf{x_n},\textbf{w}) = \sum_{n=1}^N \log p(t|\textbf{x_n},\textbf{w})\tag{4}
+\log \prod_n p(t|\textbf{x}_n,\textbf{w}) = \sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
 \end{align}
 
 
@@ -48,27 +44,23 @@ author: yuuuuuya
 \end{align}
 
 \begin{align}
-p(t=1|\textbf{x_n},\textbf{w})+p(t=0|\textbf{x_n},\textbf{w})=1\tag{6}
+p(t=1|\textbf{x}_n,\textbf{w})+p(t=0|\textbf{x}_n,\textbf{w})=1\tag{6}
 \end{align}
 
-<p>そこで、シグモイド関数の (-∞,∞)→(0,1) の単調増加関数である性質を用いて、\\(p(t|\textbf{x_n},\textbf{w})\\)を次の形で定義する。</p>
+<p>そこで、シグモイド関数の \\((-∞,∞)→(0,1)\\)の単調増加関数である性質を用いて、\\(p(t|\textbf{x}_n,\textbf{w})\\)を次の形で定義する。</p>
 
 \begin{align}
-p(t=1|\textbf{x_n},\textbf{w})=\frac{1}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}\tag{7}
+p(t=1|\textbf{x}_n,\textbf{w})=\frac{1}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}\tag{7}
 \end{align}
 
 \begin{align}
-p(t=0|\textbf{x_n},\textbf{w})=\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}\tag{8}
+p(t=0|\textbf{x}_n,\textbf{w})=\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}\tag{8}
 \end{align}
 
 <p>(7),(8)は、(6)を満たす。(3)を確率モデルとして扱えるように改めて次のように書き換える。</p>
 
 \begin{align}
-\sum \log (\frac{1}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}+\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}})\tag{7}
+\sum \log (\frac{1}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}+\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}})\tag{9}
 \end{align}
 
-<p>を最大にするパラメータwとパラメータaを勾配法で求める。</p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<p>(9)を最大にするパラメータ\\(w\\)とパラメータ\\(a\\)を勾配法で求める。</p>
