@@ -6,6 +6,10 @@ date: 2018-03-05 05:05:55
 tags: Regression, Bernoulli, Likelihood
 author: yuuuuuya
 ---
+<h1>回帰問題（不連続)</h1>
+
+<p>回帰問題：出力値と入力値のペアがある。そのペアを教師データとして入力値から出力値を予測する確率モデルを作成する。</p>
+
 <head>
 ...
     <script type="text/javascript"
@@ -14,11 +18,7 @@ author: yuuuuuya
 ...
 </head>
 
-<h1>回帰問題（不連続)</h1>
-
-<p>回帰問題：出力値と入力値のペアがある。そのペアを教師データとして入力値から出力値を予測する確率モデルを作成する。</p>
-
-<p>出力値$t(scalor)$</p>
+<p>出力値\\t(scalor)\\</p>
 
 ```math
 \begin{eqnarray}
@@ -27,7 +27,7 @@ author: yuuuuuya
 \end{eqnarray}
 ```
 
-<p>入力値$x_N$</p>
+<p>入力値\\x_N\\</p>
 
 <p>のペアがある。これらのペアは、それぞれ独立。</p>
 
