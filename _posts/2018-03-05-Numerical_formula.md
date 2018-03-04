@@ -19,7 +19,7 @@ author: yuuuuuya
 <p>MathJaxのインストール方法から、ブログ上で数式をかけるようになるまで、簡単に書いておきま す。</p>
 
 <h2>MathJaxのインストール方法</h2>
-<p>username.github.ioのレポジトリにcommit&pushしているフォルダーで、cloneを作成。</p>
+<p>username.github.ioのレポジトリにcommit&pushしているフォルダーで、cloneを作成する。</p>
 
 ```terminal
 $ git submodule add -b v2.6-latest https://github.com/mathjax/MathJax.git js/MathJax
