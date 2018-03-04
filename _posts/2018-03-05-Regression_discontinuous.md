@@ -23,7 +23,7 @@ author: yuuuuuya
 <p>目標は、この確率モデル\\(p(t|\textbf{x},\textbf{w})\\)の高さを高くすることである。つまり、次の尤度関数を高くするような、パラメータ\\(w\\)を求めたい。</p>
 
 \begin{align}
-\prod_n p(t|\textbf{x}_n,\textbf{w})\tag{3}
+\prod_{n=1} p(t|\textbf{x}_n,\textbf{w})\tag{3}
 \end{align}
 
 <p>ここでは、出力値が0 or 1であるベルヌーイ分布で考えていく。</p>
@@ -31,8 +31,17 @@ author: yuuuuuya
 この尤度関数に、対数をとった対数尤度関数を考える。その理由は、対数関数は増加関数であるため、尤度関数（３）に対数をとっても、尤度関数（３）を最大にするパラメータ\\(w\\)は不変であるからである。</p>
 
 \begin{align}
-\log \prod_n^N p(t|\textbf{x}_n,\textbf{w})=\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
+\log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})=\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
 \end{align}
+
+\begin{align}
+\log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})\tag{4}
+\end{align}
+
+\begin{align}
+\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
+\end{align}
+
 
 <p>但し、</p>
 <p>しかし、ここで問題がある。
@@ -59,7 +68,7 @@ p(t=0|\textbf{x}_n,\textbf{w})=\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{1+
 <p>(7),(8)は、(6)を満たす。(3)を確率モデルとして扱えるように改めて次のように書き換える。</p>
 
 \begin{align}
-\sum \log (\frac{1}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}+\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}})\tag{9}
+\sum_{n=1}^N \log (\frac{1}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}+\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}})\tag{9}
 \end{align}
 
 <p>(9)を最大にするパラメータ\\(w\\)とパラメータ\\(a\\)を勾配法で求める。</p>
