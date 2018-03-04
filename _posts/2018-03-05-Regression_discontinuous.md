@@ -16,7 +16,14 @@ author: yuuuuuya
 
 <p>のペアがある。これらのペアは、それぞれ独立。</p>
 </p>
-<p></p>
+<p>
+```math
+\begin{eqnarray}
+4a &=& ((a+a)+a)+a \\
+&=& (a+a)+(a+a)
+\end{eqnarray}
+```
+</p>
 <p></p>
 <p></p>
 <p></p>
