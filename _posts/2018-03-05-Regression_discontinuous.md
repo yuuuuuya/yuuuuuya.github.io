@@ -19,7 +19,6 @@ author: yuuuuuya
 
 <p>\\(t= y(\textbf{x},\textbf{w})+a  (aは誤差)\\)</p>
 
-<p>\\(y(\textbf{x},\textbf{w})=w_0x_0+w_1x_1+⋯+w_Nx_N=\textbf{w}^T\textbf{x}\\)/\\(t= y(\textbf{x},\textbf{w})+a  (aは誤差)\\)</p>
 
 \begin{align}
 \zeta(s) &= \sum_{n=1}^{\infty} \frac{1}{n^s} \\
@@ -33,7 +32,16 @@ author: yuuuuuya
 
 \prod_p \frac{1}{1-p^{-s}}
 
+\begin{align}
+\prod_p \frac{1}{1-p^{-s}}
+\end{align}
+
 <p>\\(\prod_p \frac{1}{1-p^{-s}}\\)</p>
+
+<p>\\(
+\begin{align}
+\prod_p \frac{1}{1-p^{-s}}
+\end{align}\\)</p>
 
 <p>ここでは、出力値が0 or 1であるベルヌーイ分布で考えていく。</p>
 <p>尤度関数(2)を最大にするパラメータwを求めたかった。
