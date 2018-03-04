@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cover/tree.jpg'
 title: ブログで数式を入力できるようにする。
 date: 2018-03-05 05:05:55
-tags: MathJax, blog, Github, Github-pages jekyll, 数式
+tags: MathJax blog Github Github-pages jekyll 数式
 author: yuuuuuya
 ---
 

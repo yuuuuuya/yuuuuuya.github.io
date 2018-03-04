@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cover/karasawa.jpg'
 title: 回帰問題（不連続）
 date: 2018-03-05 05:05:55
-tags: Regression, Bernoulli, Likelihood
+tags: Regression Bernoulli Likelihood
 author: yuuuuuya
 ---
 
