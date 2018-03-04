@@ -4,10 +4,10 @@ cover: 'assets/images/cover/karasawa.jpg'
 title: How to make blog
 date: 2018-03-04 18:00:00
 tags: blog
-author: inagaki
+author: yuuuuuya
 ---
 
-##『環境構築』
+<h2>『環境構築』</h2>
 
 <p>①Jekyllをインストール</p>
 <p>Rubyから、インストールできので、このサイトを参考にJekyllをインストールしました。[『参考サトURL』](https://www.ruby-lang.org/ja/downloads/)</p>
@@ -33,7 +33,7 @@ $ sudo gem install jekyll
 <p>これで、環境設定は完了！！</p>
 
 
-##『ブログ構築』
+<h2>『ブログ構築』</h2>
 
 <p>Jekyllは、たくさんのテンプレートがあるのが魅力！！！[『Jekyll-themes』](http://jekyllthemes.org)から好きなテーマを選ぶことができるので、僕は、[『Hanuman』](http://jekyllthemes.org/themes/hanuman/ )を選びました！！</p>
 <p>こんな感じのテーマです。いいですよね〜。</p>
