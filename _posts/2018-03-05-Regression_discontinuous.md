@@ -12,20 +12,20 @@ author: yuuuuuya
 
 <p>出力値
 
-$$
+```math
 \begin{eqnarray}
 t
 \end{eqnarray}
-$$
+```
 
 (scalor),
 入力値
 
-$$
+```math
 \begin{eqnarray}
 x(x=[x_1,…,x_N])
 \end{eqnarray}
-$$
+```
 
 のペアがある。これらのペアは、それぞれ独立。
 </p>
