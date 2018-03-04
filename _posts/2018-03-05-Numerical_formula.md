@@ -14,34 +14,33 @@ author: yuuuuuya
 <p>ブログ上で、</p>
 \\( 1/x^{2} \\)
 <p>このような数式を書くには、"__MathJax__"をインストールしなければいけません。</p>
-<p>MathJaxのインストール方法から、ブログ上で数式をかけるようになるまで、簡単に書いておきます。</p>
+<p>MathJaxのインストール方法から、ブログ上で数式をかけるようになるまで、簡単に書いておきま す。</p>
 
 <h2>MathJaxのインストール方法</h2>
-<p>username.github.ioのレポジトリにcommit&pushしているフォルダーで、cloneを作成します。</p>
+<p>username.github.ioのレポジトリにcommit&pushしているフォルダーで、cloneを作成。</p>
 
 ```terminal
 $ git submodule add -b v2.6-latest https://github.com/mathjax/MathJax.git js/MathJax
 ```
 
-<p>実行すると、.gitmodule と js/MathJax が作られているはずです。</p>
-<p>".gitmodule"と"js/MathJax"をcommit&pushしてください。</p>
+<p>実行すると、".gitmodule" と "js/MathJax" が作られているはず。</p>
+<p>".gitmodule" と "js/MathJax" を commit&push する。</p>
 
-<p>これで、準備は完了です。</p>
+<p>これで、準備は完了。</p>
 
 <h2>MathJaxを呼び出す</h2>
 
-<p>記事を書く際に、
-毎回、MathJaxを呼び出す必要がありま す。</p>
-
-<p>ヘッダーに、MathJaxを呼び出すコードを書いてください。</p>
+<p>記事を書く際に、毎回、MathJaxを呼び出す必要がある。</p>
+<p>そのため、ヘッダーにMathJaxを呼び出す次のコードを書く。</p>
 
 ```Atom
 $ <script type="text/javascript" src="https://username.github.io/js/MathJax/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 ```
 
-<p>※srcのURLが存在するか確認してください。先ほどcloneしてcommit&pushしているフォルダー(js/MathJax/config/)にいくつかの設定プリセットがあり、その中の１つを呼び出していま す。</p>
+<p>※"TeX-MML-AM_HTMLorMML.js"を呼び出したいときは、".js"を省いて、config=TeX-MML-AM_HTMLorMMLとする。</p>
+<p>※srcのURLが存在するか要確認。先ほどclone, commit&pushしたフォルダー(js/MathJax/config/)にいくつかの設定プリセットがある。その中の１つを呼び出している。</p>
 
-<p>以上で数式をかけるようになっていると思いま す。</p>
+<p>以上で数式をかけるようになっていると思いま す！！！。</p>
 
 
 <p>[参考URL](https://leico.github.io/TechnicalNote/Jekyll/mathjax-install)←わかりやすく書いてあり,とても参考になりました。</p>
