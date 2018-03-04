@@ -23,12 +23,21 @@ author: yuuuuuya
 &= \prod_p \frac{1}{1-p^{-s}}
 \end{align}
 
+\[
+  f(x) = \prod_{i=0}^n x_i
+\]
+
 <p>\\(\textbf{x}\\)を見た時に、特定の\\(t\\)を見る、確率モデル\\(p(t|y(\textbf{x}.\textbf{w}))\\)を作っていく。</p>
 <p>目標は、この確率モデル\\(p(t|\textbf{x},\textbf{w})\\)の高さを高くすることである。つまり、次の尤度関数を高くするような、パラメータ\\(w\\)を求めたい。</p>
 
-\[
-  f(x) = \prod_{n} p(t|\textbf{x}_n,\textbf{w})
-\]
+
+\prod_n \frac{p(t|\textbf{x},\textbf{w})}
+\\(\prod_n \frac{p(t|\textbf{x},\textbf{w})}\\)
+\prod_n \frac{p(t|\textbf{x}_n,\textbf{w})}
+\prod_n \frac{p(t|\textbf{x_n},\textbf{w})}
+\\(\prod_n \frac{p(t|\textbf{x}_n,\textbf{w})}\\)
+\\(\prod_n \frac{p(t|\textbf{x_n},\textbf{w})}\\)
+
 
 <p>ここでは、出力値が0 or 1であるベルヌーイ分布で考えていく。</p>
 <p>尤度関数(2)を最大にするパラメータwを求めたかった。
