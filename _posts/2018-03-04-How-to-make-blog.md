@@ -8,7 +8,7 @@ author: inagaki
 ---
 <p>first step　『環境構築』</p>
 <p>①Jekyllをインストール</p>
-<p>Rubyから、インストールできので、このサイトを参考にJekyllをインストールしました。[参考サイトURL](https://www.ruby-lang.org/ja/downloads/)</p>
+<p>Rubyから、インストールできので、このサイトを参考にJekyllをインストールしました。[(参考サトURL)](https://www.ruby-lang.org/ja/downloads/)</p>
 <p>そして、terminalで</p>
 
 ```terminal
@@ -18,7 +18,7 @@ $ gem install jekyll
 <p>で実行し、Jekyllをインストール！！</p>
 
 <p>でも、FilePermissionErrorで、インストールできませんでした…
-これは、「アクセス権がないよ」というエラー。そのため、先頭に”sudo”をつけて、実行し、パスワードを入れれば、インストールできました！！[error参考URL](https://teratail.com/questions/74708)</p>
+これは、「アクセス権がないよ」というエラー。そのため、先頭に”sudo”をつけて、実行し、パスワードを入れれば、インストールできました！！[(error参考URL)](https://teratail.com/questions/74708)</p>
 
 ```terminal
 $ sudo gem install jekyll
@@ -26,23 +26,23 @@ $ sudo gem install jekyll
 
 <p>②GitHubでブログ公開用(Github-pages)のレポジトリを作成。
 ”username.github.io”で作ればOK！！
-参考URLの”Create repository”を参照[参考URL](https://pages.github.com)</p>
+参考URLの”Create repository”を参照[(参考URL)](https://pages.github.com)</p>
 
 <p>これで、環境設定は完了！！</p>
 
 
 <p>second step　『ブログ構築』</p>
-<p>Jekyllは、たくさんのテンプレートがあるのが魅力！！！[Jekyll-themes](http://jekyllthemes.org)から好きなテーマを選ぶことができるので、僕は、[Hanuman](http://jekyllthemes.org/themes/hanuman/ )を選びました！！
+<p>Jekyllは、たくさんのテンプレートがあるのが魅力！！！[(Jekyll-themes)](http://jekyllthemes.org)から好きなテーマを選ぶことができるので、僕は、[(Hanuman)](http://jekyllthemes.org/themes/hanuman/ )を選びました！！</p>
 <p>こんな感じのテーマです。いいですよね〜。</p>
 
 <img src="../assets/images/how_to_make_blog/hanuman.jpg" width="100%">
 
 <p>まず、テーマをFork！！</p>
-<img src="../assets/images/how_to_make_blog/Fork" width="100%">
+<img src="../assets/images/how_to_make_blog/Fork.jpg" width="100%">
 
 <p>Forkしたものを開き、cloneするためのURLを取得。</p>
 
-<img src="../assets/images/how_to_make_blog/clone" width="100%">
+<img src="../assets/images/how_to_make_blog/clone.jpg" width="100%">
 
 <p>そして、terminalでブログを作りたい住所まで行き、次のコードを実行すれば、clone完了です。</p>
 
@@ -76,13 +76,13 @@ $ bundle exec Jekyll serve
 <p>ただ、僕の場合は、簡単にcommit&pushさせてくれまんせんでした。</p>
 <p>
 
-```terminal
+```
 $ git remote add origin https://github.com/username/username.github.io.git
 ```
 
 を実行した時に、
 
-```terminal
+```
 fatal: remote origin already exists.
 ```
 
