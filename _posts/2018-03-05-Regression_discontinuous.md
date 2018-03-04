@@ -7,7 +7,7 @@ tags: Regression, Bernoulli, Likelihood
 author: yuuuuuya
 ---
 
-<script type="text/javascript" src="https://yuuuuuya.github.io/tree/master/js/MathJax/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+<script type="text/javascript" src="https://yuuuuuya.github.io/js/MathJax/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 
 <h1>回帰問題（不連続)</h1>
 
