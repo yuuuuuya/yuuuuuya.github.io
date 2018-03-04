@@ -10,7 +10,7 @@ author: yuuuuuya
 
 <p>回帰問題：出力値と入力値のペアがある。そのペアを教師データとして入力値から出力値を予測する確率モデルを作成する。</p>
 
-<p>出力値
+<p>出力値$$t$$</p>
 
 ```math
 \begin{eqnarray}
@@ -18,7 +18,7 @@ t
 \end{eqnarray}
 ```
 
-(scalor),
+<p>(scalor),
 入力値
 
 ```math
