@@ -15,14 +15,9 @@ author: yuuuuuya
 
 <p>出力値\\t(scalor)\\</p>
 
-```math
-\begin{eqnarray}
-4a &=& ((a+a)+a)+a \\
-&=& (a+a)+(a+a)
-\end{eqnarray}
-```
 
-<p>入力値\\x_N\\</p>
+\\( 1/x^{2} \\)
+<p>入力値\\(x_{N}\\)</p>
 
 <p>のペアがある。これらのペアは、それぞれ独立。</p>
 
