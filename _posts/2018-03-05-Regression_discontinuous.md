@@ -23,7 +23,7 @@ author: yuuuuuya
 <p>目標は、この確率モデル\\(p(t|\textbf{x},\textbf{w})\\)の高さを高くすることである。つまり、次の尤度関数を高くするような、パラメータ\\(w\\)を求めたい。</p>
 
 \begin{align}
-\prod_{n=1} p(t|\textbf{x}_n,\textbf{w})\tag{3}
+\prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})\tag{3}
 \end{align}
 
 <p>ここでは、出力値が0 or 1であるベルヌーイ分布で考えていく。</p>
@@ -31,16 +31,9 @@ author: yuuuuuya
 この尤度関数に、対数をとった対数尤度関数を考える。その理由は、対数関数は増加関数であるため、尤度関数（３）に対数をとっても、尤度関数（３）を最大にするパラメータ\\(w\\)は不変であるからである。</p>
 
 \begin{align}
-\log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})=\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
+\log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})$=\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
 \end{align}
 
-\begin{align}
-\log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})\tag{4}
-\end{align}
-
-\begin{align}
-\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
-\end{align}
 
 
 <p>但し、</p>
