@@ -19,9 +19,7 @@ t(scalor)
 <p>入力値</p>
 
 ```math
-\begin{eqnarray}
 x(x=[x_1,…,x_N])
-\end{eqnarray}
 ```
 
 <p>のペアがある。これらのペアは、それぞれ独立。</p>
