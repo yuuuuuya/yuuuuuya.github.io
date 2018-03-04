@@ -12,8 +12,8 @@ author: yuuuuuya
 <h1>回帰問題（不連続:ベルヌーイ)</h1>
 
 <p>回帰問題：出力値と入力値のペアがある。そのペアを教師データとして入力値から出力値を予測する確率モデルを作成する。</p>
-<p>出力値\\(t(scalor)\\)、入力値\\(\textbf{x}(\textbf{x}=[x_1,…,x_N])\\)のペアがある。これらのペアは、それぞれ独立とする。</p>
-<p>各データ点\textbf{x}における予測値\\(y(\textbf{x},\textbf{w})\\)を、パラメータ\\(\textbf{w}(\textbf{w}=[w_0,…,w_N])\\)を用いて次のように表す。</p>
+<p>出力値\\(t(scalor)\\)と入力値\\(\textbf{x}(\textbf{x}=[x_1,…,x_N])\\)のペアがある。それぞれのペア同士、独立とする。</p>
+<p>各データ点\\(\textbf{x}\\)における予測値\\(y(\textbf{x},\textbf{w})\\)を、パラメータ\\(\textbf{w}(\textbf{w}=[w_0,…,w_N])\\)を用いて次のように表す。</p>
 
 \\(y(\textbf{x},\textbf{w})=w_0x_0+w_1x_1+⋯+w_Nx_N=\textbf{w}^T\textbf{x}\\)
 \\(t= y(\textbf{x},\textbf{w})+a  (aは誤差)\\)
@@ -23,9 +23,9 @@ author: yuuuuuya
 &= \prod_p \frac{1}{1-p^{-s}}
 \end{align}
 
-<p>\textbf{x}を見た時に、特定の\\(t\\)を見る、確率モデル\\(p(t|y(\textbf{x}.\textbf{w})\\)を作っていく。</p>
+<p>\\(\textbf{x}\\)を見た時に、特定の\\(t\\)を見る、確率モデル\\(p(t|y(\textbf{x}.\textbf{w})\\)を作っていく。</p>
 <p>目標は、この確率モデル\\(p(t|\textbf{x},\textbf{w})\\)の高さを高くすることである。つまり、次の尤度関数を高くするような、パラメータ\\(w\\)を求めたい。</p>
-\prod\n{p(t|\textbf{x}_n,\textbf{w})}\)
+\\(\prod_n \frac{p(t|\textbf{x}_n,\textbf{w})}\\)
 
 <p>ここでは、出力値が0 or 1であるベルヌーイ分布で考えていく。</p>
 <p>尤度関数(2)を最大にするパラメータwを求めたかった。
