@@ -47,13 +47,13 @@ $ sudo gem install jekyll
 <p>そして、terminalでブログを作りたい住所まで行き、次のコードを実行すれば、clone完了です。</p>
 
 ```terminal
-$ git clone (clone URL)
+$ git clone clone　URL
 ```
 
 <p>その後、次のコードを実行</p>
 
 ```terminal
-$ cd hanuman#クローンしてできたディレクトリ
+$ cd hanuman#クローンしてできたファイル
 $ bundle install
 ```
 
@@ -70,7 +70,7 @@ $ bundle exec Jekyll serve
 ```
 
 <p>あとは、GitHubに先ほど作った”username.github.io”のレポジトリに_site以外をcommit&push！！</p>
-<p>※hanumanの場合は、cloneで作ったディレクトリと同じ住所に作られた”hanuman-pages”というディレクトリが_siteの代わり</p>
+<p>※hanumanの場合は、cloneで作ったファイルと同じ住所に作られた”hanuman-pages”というファイルが_siteの代わりです</p>
 <p>この_siteは、生成された全サイトデータが保存されるフォルダ。この中のデータはJekyllでサイト構築するたびに作り直されるので、このフォルダの中のファイルを直接編集してはいけません。また、Github-pagesの裏で_site同じ処理してくれてるので、commit&pushする必要はありません[参考URL](http://bn.dgcr.com/archives/20170117140100.html)</p>
 
 <p>ただ、僕の場合は、簡単にcommit&pushさせてくれまんせんでした。</p>
