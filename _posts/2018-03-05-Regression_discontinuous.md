@@ -6,17 +6,12 @@ date: 2018-03-05 05:05:55
 tags: Regression, Bernoulli, Likelihood
 author: yuuuuuya
 ---
+
+<script type="text/javascript" src="https://yuuuuuya.github.io/tree/master/js/MathJax/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+
 <h1>回帰問題（不連続)</h1>
 
 <p>回帰問題：出力値と入力値のペアがある。そのペアを教師データとして入力値から出力値を予測する確率モデルを作成する。</p>
-
-<head>
-...
-    <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-...
-</head>
 
 <p>出力値\\t(scalor)\\</p>
 
