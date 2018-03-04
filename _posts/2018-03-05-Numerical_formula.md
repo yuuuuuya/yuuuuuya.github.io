@@ -11,6 +11,8 @@ author: yuuuuuya
 
 <h1>Github-pages + jekyllのブログで、数式をかけるようにする</h1>
 
+
+
 <p>ブログ上で、</p>
 \\( 1/x^{2} \\)
 <p>このような数式を書くには、"__MathJax__"をインストールしなければいけません。</p>
@@ -37,10 +39,12 @@ $ git submodule add -b v2.6-latest https://github.com/mathjax/MathJax.git js/Mat
 $ <script type="text/javascript" src="https://username.github.io/js/MathJax/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 ```
 
-<p>※"TeX-MML-AM_HTMLorMML.js"を呼び出したいときは、".js"を省いて、config=TeX-MML-AM_HTMLorMMLとする。</p>
 <p>※srcのURLが存在するか要確認。先ほどclone, commit&pushしたフォルダー(js/MathJax/config/)にいくつかの設定プリセットがある。その中の１つを呼び出している。</p>
+<p>※"TeX-MML-AM_HTMLorMML.js"を呼び出したいときは、".js"を省いて、config=TeX-MML-AM_HTMLorMMLとする。</p>
+
+
 
 <p>以上で数式をかけるようになっていると思いま す！！！。</p>
 
 
-<p>[参考URL](https://leico.github.io/TechnicalNote/Jekyll/mathjax-install)←わかりやすく書いてあり,とても参考になりました。</p>
+<p>[参考URL](https://leico.github.io/TechnicalNote/Jekyll/mathjax-install)←わかりやすく書いてあり、とても参考になりました。</p>
