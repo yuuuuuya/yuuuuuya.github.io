@@ -30,15 +30,18 @@ author: yuuuuuya
 <p>\\(\textbf{x}\\)を見た時に、特定の\\(t\\)を見る、確率モデル\\(p(t|y(\textbf{x}.\textbf{w}))\\)を作っていく。</p>
 <p>目標は、この確率モデル\\(p(t|\textbf{x},\textbf{w})\\)の高さを高くすることである。つまり、次の尤度関数を高くするような、パラメータ\\(w\\)を求めたい。</p>
 
+\\(p(t|\textbf{x},\textbf{w})\\)
+
+
 \begin{align}
-\prod_n \frac{p(t|\textbf{x},\textbf{w})}
+\prod_n \frac{\\(p(t|\textbf{x},\textbf{w})\\)}
 \end{align}
 
-<p>\\(\prod_n \frac{p(t|\textbf{x},\textbf{w})}\\)</p>
+<p>\\(\prod_n \frac{\\(p(t|\textbf{x},\textbf{w})\\)}\\)</p>
 
 <p>\\(
 \begin{align}
-\prod_n \frac{p(t|\textbf{x},\textbf{w})}}
+\prod_n \frac{\\(p(t|\textbf{x},\textbf{w})\\)}}
 \end{align}\\)</p>
 
 <p>ここでは、出力値が0 or 1であるベルヌーイ分布で考えていく。</p>
