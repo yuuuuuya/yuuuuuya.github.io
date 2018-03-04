@@ -1,9 +1,9 @@
 ---
 layout: post
-cover: 'assets/images/cover/karasawa.jpg'
+cover: 'assets/images/cover/tree.jpg'
 title: How to make blog
 date: 2018-03-04 18:00:00
-tags: blog Jekyll Github-pages 
+tags: blog Jekyll Github-pages
 author: yuuuuuya
 ---
 

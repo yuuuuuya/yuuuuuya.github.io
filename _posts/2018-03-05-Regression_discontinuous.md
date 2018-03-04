@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/cover/karasawa.jpg'
+cover: 'assets/images/cover/tree.jpg'
 title: 回帰問題（不連続）
 date: 2018-03-05 05:05:55
 tags: Regression Bernoulli Likelihood
