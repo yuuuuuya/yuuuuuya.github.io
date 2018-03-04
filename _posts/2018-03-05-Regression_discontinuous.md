@@ -31,10 +31,8 @@ author: yuuuuuya
 この尤度関数に、対数をとった対数尤度関数を考える。その理由は、対数関数は増加関数であるため、尤度関数（３）に対数をとっても、尤度関数（３）を最大にするパラメータ\\(w\\)は不変であるからである。</p>
 
 \begin{align}
-\log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})$=\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
+\log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})=\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})\tag{4}
 \end{align}
-
-
 
 <p>但し、</p>
 <p>しかし、ここで問題がある。
