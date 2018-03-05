@@ -32,8 +32,17 @@ author: yuuuuuya
 
 \begin{align}
 \log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})
-=
-\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})
+= \sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})
+\end{align}
+
+\begin{align}
+\log \prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w})
+$=$\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})
+\end{align}
+
+\begin{align}
+\log (\prod_{n=1}^N p(t|\textbf{x}_n,\textbf{w}))
+=\sum_{n=1}^N \log p(t|\textbf{x}_n,\textbf{w})
 \end{align}
 
 \begin{align}
