@@ -6,7 +6,6 @@ date: 2018-03-04 18:00:00
 tags: blog Jekyll Github-pages
 author: yuuuuuya
 ---
-
 <h2>『環境構築』</h2>
 
 <p>①Jekyllをインストール</p>
@@ -21,10 +20,13 @@ $ gem install jekyll
 
 <p>でも、FilePermissionErrorで、インストールできませんでした…
 これは、「アクセス権がないよ」というエラー。そのため、先頭に”sudo”をつけて、実行し、パスワードを入れれば、インストールできました！！[『error参考URL』](https://teratail.com/questions/74708)</p>
+※sudoのコマンドは、一時的にスーパーコンピュータになり、実行を許可することです。
 
 ```terminal
 $ sudo gem install jekyll
 ```
+
+なぜ、スーパーコンピュータのアクセス権が必要になったのかは、わかりません…
 
 <p>②GitHubでブログ公開用(Github-pages)のレポジトリを作成。
 ”username.github.io”で作ればOK！！
@@ -50,7 +52,7 @@ $ sudo gem install jekyll
 <p>terminalでブログを作りたい住所まで行き、次のコードを実行すれば、clone完了です。</p>
 
 ```terminal
-$ git clone clone　URL
+$ git clone cloneのURL
 ```
 
 <p>その後、次のコードを実行。</p>
@@ -77,19 +79,19 @@ $ bundle exec Jekyll serve
 <p>この_siteは、生成された全サイトデータが保存されるフォルダです。この中のデータはJekyllでサイト構築するたびに作り直されるので、このフォルダの中のファイルを直接編集してはいけません。また、Github-pagesの裏で_site同じ処理してくれてるので、commit&pushする必要はありません。[『参考URL』](http://bn.dgcr.com/archives/20170117140100.html)</p>
 
 <p>ただ、僕の場合は、簡単にcommit&pushさせてくれまんせんでした。</p>
-<p>
 
-```
+
+```terminal
 $ git remote add origin https://github.com/username/username.github.io.git
 ```
 
 を実行した時に、
 
-```
+```terminal
 fatal: remote origin already exists.
 ```
 
-と表示され、commit&pushできませんでした…</p>
+と表示され、commit&pushできませんでした…
 <p>その場合は、次のコードで、一度originを削除し、再度originを登録してください。[『参考URL』](http://pyoonn.hatenablog.com/entry/2014/10/29/191744)</p>
 ```terminal
 $ git remote rm origin
