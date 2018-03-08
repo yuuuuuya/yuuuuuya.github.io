@@ -28,9 +28,8 @@ $ find /hanuman-pages/about/index.html | xargs ls -ld
 ```
 ※これは、”アクセス権、リンク数、所有者名、グループ名、サイズ、最終更新日時、名前の詳細”を表している。[『参考URL』](https://do-zan.com/mac-terminal-ls/)
 
-所有者は、root（スーパーユーザー）!?!?!?!?　　
-/hanuman-pages/自体の所有者が、rootに…　　
-なので、１時的にスーパーユーザーとして実行の権限を与えるコマンド”sudo”をコードの頭につけることで実行できます。
+<p>所有者は、root（スーパーユーザー）!?!?!?!? /hanuman-pages/自体の所有者が、rootに…  
+なので、一時的にスーパーユーザーとして実行の権限を与えるコマンド”sudo”をコードの頭につけることで実行できま す。</p>
 ```terminal
 $ sudo bundle exec Jekyll serve
 ```
@@ -45,7 +44,7 @@ $ chown -R [オーナー] /hanuman-pages/
 ```terminal
 $ bundle exec Jekyll serve
 ```
-をいつでも実行でき流ようになりました！！！
+をいつでも実行できるようになりました！！！
 
 ----------------------------------------------------
 <h4>【他のアクセス権の調べ方】</h4>
