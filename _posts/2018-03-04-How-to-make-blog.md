@@ -9,7 +9,7 @@ author: yuuuuuya
 <h2>『環境構築』</h2>
 
 <p>①Jekyllをインストール</p>
-<p>Rubyから、インストールできので、このサイトを参考にJekyllをインストールしました。[『参考サトURL』](https://www.ruby-lang.org/ja/downloads/)</p>
+<p>Rubyから、インストールできるので、このサイトを参考にJekyllをインストールしました。[『参考サイトURL』](https://www.ruby-lang.org/ja/downloads/)</p>
 <p>そして、terminalで</p>
 
 ```terminal
