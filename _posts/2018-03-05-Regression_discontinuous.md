@@ -78,4 +78,4 @@ p(t=0|\textbf{x}_n,\textbf{w},a)=\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{
 \sum_{n=1}^N \log (\frac{1}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}+\frac{\mathrm{e}^{y(\textbf{x},\textbf{w})+a}}{1+\mathrm{e}^{y(\textbf{x},\textbf{w})+a}})\tag{11}
 \end{align}
 
-(9)を最大にするパラメータ\\(\textbf{w}\\),\\(a\\)を勾配法で求める。
+(11)を最大にするパラメータ\\(\textbf{w}\\),\\(a\\)を勾配法で求める。
