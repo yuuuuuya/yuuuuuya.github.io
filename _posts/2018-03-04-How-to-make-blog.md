@@ -78,7 +78,7 @@ $ bundle exec Jekyll serve
 <p>※hanumanの場合は、cloneで作ったファイルと同じ住所に作られた”hanuman-pages”というファイルが_siteの代わりです。</p>
 <p>この_siteは、生成された全サイトデータが保存されるフォルダです。この中のデータはJekyllでサイト構築するたびに作り直されるので、このフォルダの中のファイルを直接編集してはいけません。また、Github-pagesの裏で_site同じ処理してくれてるので、commit&pushする必要はありません。[『参考URL』](http://bn.dgcr.com/archives/20170117140100.html)</p>
 
-<p>ただ、僕の場合は、簡単にcommit&pushさせてくれまんせんでした。</p>
+<p>ただ、僕の場合は、簡単にcommit&pushさせてくれませんでした。</p>
 
 
 ```terminal
