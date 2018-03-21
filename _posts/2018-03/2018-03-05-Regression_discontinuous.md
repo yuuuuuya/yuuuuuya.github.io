@@ -2,7 +2,7 @@
 layout: post
 cover: 'assets/images/cover/tree.jpg'
 title: 回帰問題（不連続:ベルヌーイ）
-date: 2018-03-05 05:05:55
+date: 2018-03-06 05:05:55
 tags: Regression Likelihood
 author: yuuuuuya
 ---

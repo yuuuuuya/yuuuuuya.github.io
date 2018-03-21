@@ -6,7 +6,8 @@ logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://yuuuuuya.github.io/" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+paginate:	15 # The number of posts to show per page on your homepage
+#paginate_path: page:num#いるのかいらないのかわからない。自動的に後ろにつけるカテゴリーをページ数にしてくれてる
 
 # Social
 facebook: facebook

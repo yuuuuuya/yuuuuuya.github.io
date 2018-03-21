@@ -2,7 +2,7 @@
 layout: post
 cover: 'assets/images/cover/tree.jpg'
 title: 勾配法
-date: 2018-03-05 05:05:55
+date: 2018-03-07 05:05:55
 tags: gradient method
 author: yuuuuuya
 ---
